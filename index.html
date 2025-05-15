@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MundoMelo - Cogumelos frescos e sustentáveis cultivados com qualidade. Compre cogumelos e insumos para cultivo diretamente do produtor." />
+  <meta name="keywords" content="cogumelos, cultivo de cogumelos, shimeji, shiitake, portobello, cremini, king oyster, insumos para cultivo, substrato, spawn, agricultura sustentável" />
+  <meta name="author" content="MundoMelo" />
+  <meta property="og:title" content="MundoMelo – Cogumelos Frescos e Sustentáveis" />
+  <meta property="og:description" content="Descubra nossos cogumelos frescos e insumos para cultivo. Qualidade e sustentabilidade direto do produtor!" />
+  <meta property="og:image" content="images/og-image.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <title>MundoMelo – Cogumelos Frescos e Sustentáveis</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <div class="logoGAR">
+        <img src="images/icone.png" alt="MundoMelo Icon" class="logo-icon" />
+        <h1>MundoMelo</h1>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#como-funciona">Como Funciona</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-banner">
+      <div class="banner-container">
+        <img src="images/the-banner-displays-a-scene-of-ripe-mushrooms-in-a-summer-forest-with-copy-space-available-free-photo.jpg" alt="Banner de cogumelos frescos em uma floresta" class="banner-image active" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <h1>Cogumelos Frescos e Sustentáveis</h1>
+        <p>Descubra nossos cogumelos cultivados com cuidado e qualidade. Compre pelo WhatsApp ou Instagram!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="section sobre section-spacing">
+    <div class="container">
+      <h2>Sobre a MundoMelo</h2>
+      <p>Somos produtores apaixonados por cogumelos, comprometidos com sustentabilidade e qualidade. Cultivamos variedades frescas e fornecemos insumos para você começar sua própria produção.</p>
+      <div class="sobre-list">
+        <div class="sobre-item">
+          <i class="fas fa-leaf"></i>
+          <h3>Produção Sustentável</h3>
+          <p>Usamos métodos ecológicos para cultivar nossos cogumelos.</p>
+        </div>
+        <div class="sobre-item">
+          <i class="fas fa-star"></i>
+          <h3>Qualidade Garantida</h3>
+          <p>Cogumelos frescos, colhidos no momento certo.</p>
+        </div>
+        <div class="sobre-item">
+          <i class="fas fa-seedling"></i>
+          <h3>Insumos para Cultivo</h3>
+          <p>Oferecemos tudo que você precisa para cultivar cogumelos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="produtos" class="section produtos section-spacing">
+    <div class="container">
+      <section id="cogumelos" class="section section-spacing">
+        <div class="container">
+          <h2>Nossos Cogumelos</h2>
+          <p>Explore nossa seleção de cogumelos frescos, cultivados com cuidado.</p>
+          <div class="carousel-container">
+            <button class="carousel-prev" aria-label="Navegar para o item anterior"><i class="fas fa-chevron-left"></i></button>
+            <div class="carousel" id="cogumelos-carousel">
+              <div class="carousel-items">
+                <div class="produto-item">
+                  <img src="images/shimeji.jpg" alt="Shimeji" class="produto-image" />
+                  <h3>Shimeji</h3>
+                  <p class="produto-desc">Cogumelo versátil com sabor suave, ideal para refogados e sopas.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Shimeji">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item">
+                  <img src="images/Shitake.jpg" alt="Shiitake" class="produto-image" />
+                  <h3>Shiitake</h3>
+                  <p class="produto-desc">Sabor rico e textura carnuda, perfeito para pratos asiáticos.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Shiitake">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item">
+                  <img src="images/portobello.jpg" alt="Portobello" class="produto-image" />
+                  <h3>Portobello</h3>
+                  <p class="produto-desc">Grande e robusto, ótimo para grelhar ou rechear.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Portobello">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item">
+                  <img src="images/crimini.jpg" alt="Cremini" class="produto-image" />
+                  <h3>Cremini</h3>
+                  <p class="produto-desc">Sabor terroso, ideal para molhos e acompanhamentos.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Cremini">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item">
+                  <img src="images/king-oyster.jpg" alt="King Oyster" class="produto-image" />
+                  <h3>King Oyster</h3>
+                  <p class="produto-desc">Textura firme, excelente para pratos grelhados.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="King Oyster">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-next" aria-label="Navegar para o próximo item"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="insumos" class="section section-spacing">
+        <div class="container">
+          <h2>Insumos para Cultivo</h2>
+          <p>Tudo que você precisa para começar ou expandir sua produção de cogumelos.</p>
+          <div class="carousel-container">
+            <button class="carousel-prev" aria-label="Navegar para o item anterior"><i class="fas fa-chevron-left"></i></button>
+            <div class="carousel" id="insumos-carousel">
+              <div class="carousel-items">
+                <div class="produto-item">
+                  <img src="images/sementes-spawn.jpg" alt="Sementes de Cogumelo" class="produto-image" />
+                  <h3>Sementes de Cogumelo (Spawn)</h3>
+                  <p class="produto-desc">Sementes de alta qualidade para iniciar seu cultivo.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Sementes de Cogumelo">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item">
+                  <img src="images/substrato.avif" alt="Substrato para Cultivo" class="produto-image" />
+                  <h3>Substrato</h3>
+                  <p class="produto-desc">Base nutritiva para o crescimento saudável de cogumelos.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Substrato">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item">
+                  <img src="images/kitcultivo.webp" alt="Kit de Cultivo" class="produto-image" />
+                  <h3>Kit de Cultivo</h3>
+                  <p class="produto-desc">Conjunto completo com substrato e spawn para iniciantes.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Kit de Cultivo">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item">
+                  <img src="images/tampas.jpg" alt="Tampas de Cultura Líquida" class="produto-image" />
+                  <h3>Tampas de Cultura Líquida</h3>
+                  <p class="produto-desc">Tampa de cultura líquida com tubulação para cultivo de cogumelos, extração de mídia Standard Mason Jar.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Tampas de Cultura Líquida">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-next" aria-label="Navegar para o próximo item"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="compostagem" class="section section-spacing">
+        <div class="container">
+          <h2>Compostagem</h2>
+          <p>Produtos de compostagem para enriquecer seu cultivo de forma sustentável.</p>
+          <div class="carousel-container">
+            <button class="carousel-prev" aria-label="Navegar para o item anterior"><i class="fas fa-chevron-left"></i></button>
+            <div class="carousel" id="compostagem-carousel">
+              <div class="carousel-items">
+                <div class="produto-item">
+                  <img src="images/composto.webp" alt="Composto Orgânico" class="produto-image" />
+                  <h3>Composto Orgânico</h3>
+                  <p class="produto-desc">Composto rico em nutrientes para solos saudáveis.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Composto Orgânico">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item">
+                  <img src="images/residuos.png" alt="Resíduos de Colheita" class="produto-image" />
+                  <h3>Resíduos de Colheita</h3>
+                  <p class="produto-desc">Material orgânico para compostagem sustentável.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Resíduos de Colheita">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item">
+                  <img src="images/vermicomposto.jpg" alt="Vermicomposto" class="produto-image" />
+                  <h3>Vermicomposto</h3>
+                  <p class="produto-desc">Adubo orgânico produzido por minhocas, rico em nutrientes.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Vermicomposto">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item">
+                  <img src="images/composto2.webp" alt="Kit Mini Compostagem" class="produto-image" />
+                  <h3>Kit Mini Compostagem</h3>
+                  <p class="produto-desc">Kit Mini Compostagem para Mini Composteira.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Kit Mini Compostagem">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-next" aria-label="Navegar para o próximo item"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="weekly-deals" class="section section-spacing">
+        <div class="container">
+          <h2>Ofertas Semanais</h2>
+          <p>Aproveite nossas promoções exclusivas com produtos selecionados para você!</p>
+          <div class="carousel-container">
+            <button class="carousel-prev" aria-label="Navegar para o item anterior"><i class="fas fa-chevron-left"></i></button>
+            <div class="carousel" id="weekly-deals-carousel">
+              <div class="carousel-items">
+                <div class="produto-item discount">
+                  <div class="discount-ribbon">15% OFF</div>
+                  <img src="images/shimeji.jpg" alt="Shimeji em oferta" class="produto-image" />
+                  <h3>Shimeji</h3>
+                  <p class="produto-desc">Cogumelo versátil com sabor suave, ideal para refogados e sopas.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Shimeji (Oferta)">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item discount">
+                  <div class="discount-ribbon">15% OFF</div>
+                  <img src="images/Shitake.jpg" alt="Shiitake em oferta" class="produto-image" />
+                  <h3>Shiitake</h3>
+                  <p class="produto-desc">Sabor rico e textura carnuda, perfeito para pratos asiáticos.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Shiitake (Oferta)">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item discount">
+                  <div class="discount-ribbon">15% OFF</div>
+                  <img src="images/kitcultivo.webp" alt="Kit de Cultivo em oferta" class="produto-image" />
+                  <h3>Kit de Cultivo</h3>
+                  <p class="produto-desc">Conjunto completo com substrato e spawn para iniciantes.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Kit de Cultivo (Oferta)">Comprar</button>
+                  </div>
+                </div>
+                <div class="produto-item discount">
+                  <div class="discount-ribbon">15% OFF</div>
+                  <img src="images/vermicomposto.jpg" alt="Vermicomposto em oferta" class="produto-image" />
+                  <h3>Vermicomposto</h3>
+                  <p class="produto-desc">Adubo orgânico produzido por minhocas, rico em nutrientes.</p>
+                  <div class="button-container">
+                    <button class="cta primary comprar" data-product="Vermicomposto (Oferta)">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-next" aria-label="Navegar para o próximo item"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section id="como-funciona" class="section como-funciona section-spacing">
+    <div class="container">
+      <h2>Como Comprar?</h2>
+      <p>Siga esses passos simples para adquirir nossos produtos pelo WhatsApp ou Instagram.</p>
+      <div class="steps">
+        <div class="step">
+          <i class="fas fa-shopping-cart"></i>
+          <h3>Escolha o Produto</h3>
+          <p>Selecione os cogumelos ou insumos desejados.</p>
+        </div>
+        <div class="step">
+          <i class="fab fa-whatsapp"></i>
+          <h3>Contate-nos</h3>
+          <p>Envie sua lista de compras pelo WhatsApp ou Instagram.</p>
+        </div>
+        <div class="step">
+          <i class="fas fa-truck"></i>
+          <h3>Receba em Casa</h3>
+          <p>Entregamos fresquinho na sua porta.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="section contato section-spacing">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <p>Estamos prontos para atender você! Entre em contato para pedidos, dúvidas ou para saber mais sobre nossos cogumelos.</p>
+      <div class="contato-list">
+        <div class="contato-item">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p>contato@mundomelo.com.br</p>
+        </div>
+        <div class="contato-item">
+          <i class="fab fa-whatsapp"></i>
+          <h3>WhatsApp</h3>
+          <p>(11) 98765-4321</p>
+        </div>
+        <div class="contato-item">
+          <i class="fab fa-instagram"></i>
+          <h3>Instagram</h3>
+          <p>@mundomelo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="logo-footer">
+          <img src="images/icone2.png" alt="MundoMelo Logo" class="footer-logo" />
+        </div>
+        <div class="links">
+          <h3>Links Úteis</h3>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#como-funciona">Como Funciona</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="contato">
+          <h3>Contato</h3>
+          <p><i class="fas fa-envelope"></i><a href="mailto:contato@mundomelo.com.br">contato@mundomelo.com.br</a></p>
+          <p><i class="fab fa-whatsapp"></i><a href="https://wa.me/5511987654321">(11) 98765-4321</a></p>
+          <p><i class="fab fa-instagram"></i><a href="https://instagram.com/mundomelo">@mundomelo</a></p>
+        </div>
+        <div class="social">
+          <h3>Siga-nos</h3>
+          <div class="social-icons">
+            <a href="https://wa.me/5511987654321"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://instagram.com/mundomelo"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2025 MundoMelo - Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="contact-modal">
+    <div class="modal-content">
+      <span class="modal-close">×</span>
+      <h2>Fale Conosco!</h2>
+      <p>Entre em contato pelo WhatsApp ou Instagram para fazer seu pedido ou tirar dúvidas!</p>
+      <div class="modal-buttons">
+        <a href="https://wa.me/5511987654321" class="cta primary"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://instagram.com/mundomelo" class="cta secondary"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://wa.me/5511987654321" class="whatsapp-button" target="_blank" aria-label="Fale conosco pelo WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span>Fale Conosco!</span>
+  </a>
+
+  <script>
+    // Hamburger menu toggle
+    document.querySelector('.nav-toggle').addEventListener('click', () => {
+      document.querySelector('.nav-bar').classList.toggle('active');
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+        // Close mobile menu after clicking a link
+        document.querySelector('.nav-bar').classList.remove('active');
+      });
+    });
+
+    // Banner functionality
+    let currentBannerIndex = 0;
+    const banners = document.querySelectorAll('.banner-image');
+    function moveBanner(direction) {
+      banners[currentBannerIndex].classList.remove('active');
+      if (direction === 'next') {
+        currentBannerIndex = (currentBannerIndex + 1) % banners.length;
+      } else if (direction === 'prev') {
+        currentBannerIndex = (currentBannerIndex - 1 + banners.length) % banners.length;
+      }
+      banners[currentBannerIndex].classList.add('active');
+    }
+    setInterval(() => moveBanner('next'), 4000);
+
+    // Carousel functionality
+    document.querySelectorAll('.carousel-container').forEach(container => {
+      const prevBtn = container.querySelector('.carousel-prev');
+      const nextBtn = container.querySelector('.carousel-next');
+      const carouselItems = container.querySelector('.carousel-items');
+
+      let scrollAmount = 0;
+      const scrollStep = 300;
+
+      prevBtn.addEventListener('click', () => {
+        carouselItems.scrollBy({
+          left: -scrollStep,
+          behavior: 'smooth'
+        });
+      });
+
+      nextBtn.addEventListener('click', () => {
+        carouselItems.scrollBy({
+          left: scrollStep,
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Modal functionality
+    const modal = document.getElementById('contact-modal');
+    const modalClose = document.querySelector('.modal-close');
+    const comprarButtons = document.querySelectorAll('.comprar');
+
+    comprarButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const product = button.getAttribute('data-product');
+        const whatsappLink = document.querySelector('.modal-buttons .cta.primary');
+        const instagramLink = document.querySelector('.modal-buttons .cta.secondary');
+        whatsappLink.href = `https://wa.me/5511987654321?text=Quero%20comprar%20${encodeURIComponent(product)}`;
+        instagramLink.href = `https://instagram.com/mundomelo`;
+        modal.style.display = 'flex';
+      });
+    });
+
+    modalClose.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+
+    // Show modal on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      modal.style.display = 'flex';
+    });
+
+    // Section visibility
+    const sections = document.querySelectorAll('.section');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    sections.forEach(section => observer.observe(section));
+
+    // Structured data
+    const structuredData = {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "MundoMelo",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+5511987654321",
+        "contactType": "customer service",
+        "areaServed": "BR",
+        "availableLanguage": "Portuguese"
+      }, {
+        "@type": "ContactPoint",
+        "email": "contato@mundomelo.com.br",
+        "contactType": "customer service",
+        "areaServed": "BR",
+        "availableLanguage": "Portuguese"
+      }]
+    };
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify(structuredData);
+    document.head.appendChild(script);
+  </script>
+</body>
+</html>
